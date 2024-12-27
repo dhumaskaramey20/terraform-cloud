@@ -6,7 +6,7 @@ provider "google" {
     zone = "us-central1-b"
   }
 
-resource "google_storage_bucket" "bucket" {
-  name = "gcp-tf-cloud"
-  location = "asia-south1"
-}
+# resource "google_storage_bucket" "bucket" {
+#   name = "gcp-tf-cloud"
+#   location = "asia-south1"
+# }
